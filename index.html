@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tung Tung Tung Sahur</title>
+    <meta
+      name="description"
+      content="A realistic chat agent mockup inspired by the Tung Tung Tung Sahur brain-rot meme."
+    />
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <script type="module" src="src/scripts/app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">TT</div>
+          <div>
+            <p class="eyebrow">Sahur agent</p>
+            <h1>Tung Tung Tung Sahur</h1>
+          </div>
+        </div>
+
+        <button class="new-chat" type="button">+ New chat</button>
+
+        <div class="sidebar-section">
+          <p class="section-label">Conversations</p>
+          <div class="chat-list" id="chat-list"></div>
+        </div>
+
+        <div class="sidebar-card">
+          <p class="section-label">Mode</p>
+          <strong>Night patrol ready</strong>
+          <span>Drum-first sahur chaos, midnight energy, and a polished meme interface.</span>
+        </div>
+      </aside>
+
+      <main class="chat-panel">
+        <section class="showcase">
+          <div class="showcase-copy">
+            <p class="eyebrow">Editorial launch</p>
+            <h2>Tung Tung Tung Sahur, reimagined like a flagship product.</h2>
+            <p>
+              A cinematic sahur broadcast built around the drum, the night watch,
+              and the unhinged energy of the Tung Tung Tung meme.
+            </p>
+
+            <div class="showcase-pills">
+              <span class="show-pill">Drum call</span>
+              <span class="show-pill">Sahur wake-up</span>
+              <span class="show-pill">Meme-grade visual</span>
+            </div>
+          </div>
+
+          <div class="showcase-art" aria-hidden="true">
+            <div class="art-card art-card-large">
+              <div class="art-sky"></div>
+              <div class="art-moon"></div>
+              <div class="art-silhouette"></div>
+              <div class="art-drum"></div>
+              <div class="art-waves"></div>
+              <div class="art-label">
+                <strong>Tung Tung Tung Sahur</strong>
+                <span>Drum, moonlight, and midnight wake-up energy</span>
+              </div>
+            </div>
+
+            <div class="art-stack">
+              <article class="art-card art-mini">
+                <span>Sahur signal</span>
+                <strong>Locked</strong>
+              </article>
+              <article class="art-card art-mini accent">
+                <span>Brain-rot level</span>
+                <strong>High</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <header class="chat-header">
+          <div>
+            <p class="eyebrow">Live agent</p>
+            <h2>Wake the neighborhood, hit the drum, and keep the sahur chaos organized.</h2>
+          </div>
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            Night watch online
+          </div>
+        </header>
+
+        <section class="chat-layout">
+          <div class="chat-stream">
+            <div class="chat-stream-head">
+              <div>
+                <p class="section-label">Conversation</p>
+                <h3>Tung Tung Tung wake-up sequence</h3>
+              </div>
+              <span class="badge success">Synced</span>
+            </div>
+
+            <div class="message-list" id="message-list" aria-live="polite"></div>
+
+            <div class="suggestions">
+              <button class="chip" type="button">Explain the Tung Tung drum</button>
+              <button class="chip" type="button">Draft a midnight wake-up</button>
+              <button class="chip" type="button">Turn this into a meme checklist</button>
+            </div>
+
+            <form class="composer" id="composer">
+              <label class="sr-only" for="message-input">Message</label>
+              <textarea
+                id="message-input"
+                rows="3"
+                placeholder="Message the sahur drummer..."
+              ></textarea>
+              <div class="composer-actions">
+                <button class="btn btn-ghost" type="button">Attach</button>
+                <button class="btn btn-primary" type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+
+          <aside class="tools-panel">
+            <section class="card compact">
+              <p class="section-label">Agent tools</p>
+              <ul class="tool-list">
+                <li>Drum timing</li>
+                <li>Sahur remixing</li>
+                <li>Wake-up polishing</li>
+                <li>Lore history</li>
+              </ul>
+            </section>
+
+            <section class="card compact">
+              <p class="section-label">Memory</p>
+              <div class="memory-item">
+                <strong>Current project</strong>
+                <span>GitHub-ready sahur meme chat with drum energy</span>
+              </div>
+              <div class="memory-item">
+                <strong>Tone</strong>
+                <span>Loud, cinematic, and meme-accurate</span>
+              </div>
+            </section>
+
+            <section class="card compact">
+              <p class="section-label">Output state</p>
+              <div class="mini-metric">
+                <strong>12</strong>
+                <span>messages in thread</span>
+              </div>
+              <div class="mini-metric">
+                <strong>3</strong>
+                <span>quick actions available</span>
+              </div>
+            </section>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
