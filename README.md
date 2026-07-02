@@ -1,4 +1,4 @@
-# Tung Tung AI Mockup
+# Tung Tung Tung Sahur AI
 
 A lightweight static mockup for Tung Tung Tung Sahur.
 
