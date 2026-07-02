@@ -1,6 +1,6 @@
 # Tung Tung AI Mockup
 
-A lightweight static mockup for Tung Tung Tung Sahur. It is designed to look like a real chat AI agent while staying simple and easy to upload to GitHub.
+A lightweight static mockup for Tung Tung Tung Sahur.
 
 ## Structure
 
@@ -15,6 +15,5 @@ Open `index.html` directly in a browser.
 
 ## Notes
 
-- No local or personal data is included.
 - No dependencies are required.
 - The project is intentionally small, structured, and self-contained.
